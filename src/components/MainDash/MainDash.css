@@ -1,0 +1,40 @@
+.MainDash{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: scroll;
+}
+.MidItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.admin-name{
+    color: black;
+
+}
+@media screen and (max-width: 900px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+    .MidItems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+    .MidItems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
